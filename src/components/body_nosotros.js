@@ -65,7 +65,7 @@ function BodyNosotros() {
       <h2 className="text-center mb-4">Mapa Interactivo de Google Maps</h2>
       <div className="map-container" style={{ position: 'relative', overflow: 'hidden', paddingTop: '56.25%' }}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249.36028813089044!2d-78.57242847793364!3d-0.2972967351069875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1718673503114!5m2!1ses!2sec"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d559.8024496397544!2d-78.45127976251047!3d0.012629114338155032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2a77bf36b7cdbf%3A0x7a9b936064b41d2f!2sCalle%20los%20Pinos!5e0!3m2!1ses!2sec!4v1721596065633!5m2!1ses!2sec"
           width="100%"
           height="100%"
           style={{
