@@ -15,6 +15,7 @@ import Accesorios from './pages/accesorios';
 import Sistemas from './pages/sistemas';
 import Respaldo from './pages/respaldo';
 import TodoArticulos from './pages/todo_articulos';
+import Ayuda from './pages/ayuda';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/preguntas" element={<Preguntas />} />
         <Route path="/generadores" element={<Generadores />} />
         <Route path="/componentes" element={<Componentes />} />
+        <Route path="/ayuda" element={<Ayuda />} />
         <Route path="/accesorios" element={<Accesorios />} />
         <Route path="/sistemas" element={<Sistemas />} />
         <Route path="/respaldo" element={<Respaldo />} />
