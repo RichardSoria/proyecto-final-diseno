@@ -49,6 +49,7 @@ function Header() {
               <ul className="dropdown-menu">
                 <li><Link to="/iniciar-sesion" className="dropdown-item">Iniciar Sesión</Link></li>
                 <li><Link to="/registrarse" className="dropdown-item">Registrarse</Link></li>
+                <li><Link to="/seguimiento" className="dropdown-item">Seguir mis pedidos</Link></li>
                 <li><Link to="/ayuda" className="dropdown-item">Ayuda</Link></li>
                 <li><Link to="/preguntas" className="dropdown-item">Preguntas Frecuentes</Link></li>
                 <li><hr className="dropdown-divider" /></li>

@@ -13,6 +13,7 @@ import Generadores from './pages/generadores';
 import Componentes from './pages/componentes';
 import Accesorios from './pages/accesorios';
 import Sistemas from './pages/sistemas';
+import Seguimiento from './pages/seguimiento';
 import Respaldo from './pages/respaldo';
 import TodoArticulos from './pages/todo_articulos';
 import Ayuda from './pages/ayuda';
@@ -29,6 +30,7 @@ function App() {
         <Route path="/preguntas" element={<Preguntas />} />
         <Route path="/generadores" element={<Generadores />} />
         <Route path="/componentes" element={<Componentes />} />
+        <Route path="/seguimiento" element={<Seguimiento />} />
         <Route path="/ayuda" element={<Ayuda />} />
         <Route path="/accesorios" element={<Accesorios />} />
         <Route path="/sistemas" element={<Sistemas />} />
