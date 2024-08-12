@@ -59,6 +59,7 @@ function BodyPrincipal() {
                 <p className="card-text">Generador de energía industrial, ideal para asegurar el suministro eléctrico en obras y situaciones de emergencia.</p>
                 <p className="card-text"><strong>$3,500.00</strong></p>
                 <button type="button" className="btn btn-primary button-custom" data-bs-toggle="modal" data-bs-target="#producto1Modal">Más detalles</button>
+                <button type="button" className="btn btn-warning button-custom ms-2">Añadir a la lista de deseos</button>
               </div>
             </div>
           </div>
@@ -70,6 +71,7 @@ function BodyPrincipal() {
                 <p className="card-text">kit de herramientas y componentes eléctricos, ideal para proyectos de instalación, reparación y mantenimiento eléctrico.</p>
                 <p className="card-text"><strong>$150.00</strong></p>
                 <button type="button" className="btn btn-primary button-custom" data-bs-toggle="modal" data-bs-target="#producto2Modal">Más detalles</button>
+                <button type="button" className="btn btn-warning button-custom ms-2">Añadir a la lista de deseos</button>
               </div>
             </div>
           </div>
@@ -81,6 +83,7 @@ function BodyPrincipal() {
                 <p className="card-text">Conjunto profesional de herramientas aisladas para electricistas, diseñado para garantizar seguridad y precisión en instalaciones y mantenimientos eléctricos.</p>
                 <p className="card-text"><strong>$250.00</strong></p>
                 <button type="button" className="btn btn-primary button-custom" data-bs-toggle="modal" data-bs-target="#producto3Modal">Más detalles</button>
+                <button type="button" className="btn btn-warning button-custom ms-2">Añadir a la lista de deseos</button>
               </div>
             </div>
           </div>
@@ -92,6 +95,7 @@ function BodyPrincipal() {
                 <p className="card-text">Panel solar de alta eficiencia ideal para instalaciones residenciales o comerciales.</p>
                 <p className="card-text"><strong>$400.00 por panel</strong></p>
                 <button type="button" className="btn btn-primary button-custom" data-bs-toggle="modal" data-bs-target="#producto4Modal">Más detalles</button>
+                <button type="button" className="btn btn-warning button-custom ms-2">Añadir a la lista de deseos</button>
               </div>
             </div>
           </div>
@@ -103,6 +107,7 @@ function BodyPrincipal() {
                 <p className="card-text"> UPS de alta capacidad para proteger equipos críticos contra interrupciones de energía. Ideal para servidores, redes, y equipos electrónicos sensibles, garantizando un suministro continuo y estable de energía.</p>
                 <p className="card-text"><strong>$800.00 - $2,000.00</strong></p>
                 <button type="button" className="btn btn-primary button-custom" data-bs-toggle="modal" data-bs-target="#producto5Modal">Más detalles</button>
+                <button type="button" className="btn btn-warning button-custom ms-2">Añadir a la lista de deseos</button>
               </div>
             </div>
           </div>
@@ -114,6 +119,7 @@ function BodyPrincipal() {
                 <p className="card-text">Generador de 5500W de potencia de arranque, ideal para proporcionar energía confiable en situaciones de emergencia o en áreas sin acceso a la red eléctrica.</p>
                 <p className="card-text"><strong>$600.00</strong></p>
                 <button type="button" className="btn btn-primary button-custom" data-bs-toggle="modal" data-bs-target="#producto6Modal">Más detalles</button>
+                <button type="button" className="btn btn-warning button-custom ms-2">Añadir a la lista de deseos</button>
               </div>
             </div>
           </div>

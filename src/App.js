@@ -17,6 +17,11 @@ import Seguimiento from './pages/seguimiento';
 import Respaldo from './pages/respaldo';
 import TodoArticulos from './pages/todo_articulos';
 import Ayuda from './pages/ayuda';
+import RecuperarContrasena from './pages/recuperarContrasena';
+import Carrito from './pages/carrito';
+import Factura from './pages/factura';
+import ListaDeseos from './pages/listaDeseos';
+import ProductDetalles from './pages/detalleProducto';
 
 function App() {
   return (
@@ -25,7 +30,12 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/iniciar-sesion" element={<IniciarSesion />} />
         <Route path="/registrarse" element={<Registrar />} />
+        <Route path="/recuperar-contrasena" element={<RecuperarContrasena />} />
+        <Route path="/carrito" element={<Carrito />} />
+        <Route path="/factura" element={<Factura />} /> 
         <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/listaDeseos" element={<ListaDeseos />} />
+        <Route path="/producto/:id" element={<ProductDetalles />} />
         <Route path="/contactos" element={<Contacto />} />
         <Route path="/preguntas" element={<Preguntas />} />
         <Route path="/generadores" element={<Generadores />} />

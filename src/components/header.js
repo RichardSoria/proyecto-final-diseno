@@ -31,10 +31,13 @@ function Header() {
               </ul>
             </li>
             <li className="nav-item">
-              <Link to="/ofertas" className="nav-link text-center mb-2 mb-md-0">Ofertas</Link>
+              <Link to="/carrito" className="nav-link text-center mb-2 mb-md-0">Carrito</Link>
             </li>
             <li className="nav-item">
               <Link to="/nosotros" className="nav-link text-center mb-2 mb-md-0">Nosotros</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/listaDeseos" className="nav-link text-center mb-2 mb-md-0">Lista de deseos</Link>
             </li>
             <li className="nav-item">
               <Link to="/contactos" className="nav-link text-center mb-2 mb-md-0">Contacto</Link>
@@ -52,8 +55,6 @@ function Header() {
                 <li><Link to="/seguimiento" className="dropdown-item">Seguir mis pedidos</Link></li>
                 <li><Link to="/ayuda" className="dropdown-item">Ayuda</Link></li>
                 <li><Link to="/preguntas" className="dropdown-item">Preguntas Frecuentes</Link></li>
-                <li><hr className="dropdown-divider" /></li>
-                <li><Link to="/otros" className="dropdown-item">Otros</Link></li>
               </ul>
             </li>
           </ul>
