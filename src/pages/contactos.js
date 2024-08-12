@@ -10,7 +10,6 @@ function Contacto() {
           <div className="flex-grow-1">
             <BodyContacto />
           </div>
-          <Footer />
         </div>
       );
 }
