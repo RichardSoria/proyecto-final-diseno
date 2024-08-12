@@ -37,7 +37,7 @@ function Header() {
               <Link to="/nosotros" className="nav-link text-center mb-2 mb-md-0">Nosotros</Link>
             </li>
             <li className="nav-item">
-              <Link to="/contacto" className="nav-link text-center mb-2 mb-md-0">Contacto</Link>
+              <Link to="/contactos" className="nav-link text-center mb-2 mb-md-0">Contacto</Link>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle text-center mb-2 mb-md-0" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">

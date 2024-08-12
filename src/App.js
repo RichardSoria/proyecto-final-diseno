@@ -7,6 +7,7 @@ import Index from './pages/index';
 import IniciarSesion from './pages/iniciar_sesion';
 import Registrar from './pages/registrar';
 import Nosotros from './pages/nosotros';
+import Contacto from './pages/contactos';
 import Preguntas from './pages/preguntas';
 import Generadores from './pages/generadores';
 import Componentes from './pages/componentes';
@@ -23,6 +24,7 @@ function App() {
         <Route path="/iniciar-sesion" element={<IniciarSesion />} />
         <Route path="/registrarse" element={<Registrar />} />
         <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/contactos" element={<Contacto />} />
         <Route path="/preguntas" element={<Preguntas />} />
         <Route path="/generadores" element={<Generadores />} />
         <Route path="/componentes" element={<Componentes />} />
