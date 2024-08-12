@@ -22,7 +22,7 @@ function BodyContacto() {
                     <p className="w-100"><a href="https://wa.me/593981497894" target="_blank" rel="noopener noreferrer" className="btn btn-outline-success btn-lg w-100 text-wrap">WhatsApp</a></p>
                 </div>
             </div>
-        </>
+        </> 
     );
 }
 
