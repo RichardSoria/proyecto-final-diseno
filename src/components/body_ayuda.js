@@ -27,7 +27,7 @@ function BodyAyuda() {
                             data-bs-parent="#helpAccordion"
                         >
                             <div className="accordion-body">
-                                Para restablecer tu contraseña, ve a la página de inicio de sesión y haz clic en "¿Olvidaste tu contraseña?". Sigue las instrucciones para recibir un enlace de restablecimiento en tu correo electrónico.
+                                Para restablecer tu contraseña, ve a la página de inicio de sesión y haz clic en "¿Olvidaste tu contraseña?" y sigue las instrucciones.
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ function BodyAyuda() {
                             data-bs-parent="#helpAccordion"
                         >
                             <div className="accordion-body">
-                                Puedes contactar con nuestro soporte técnico a través de nuestro formulario de contacto a continuación o enviando un correo electrónico a soporte@ejemplo.com.
+                                Puedes contactar con nuestro soporte técnico a través de nuestro formulario de contacto a continuación o enviando un correo electrónico a mateo.torres@epn.edu.ec
                             </div>
                         </div>
                     </div>
