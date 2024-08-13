@@ -5,6 +5,9 @@ import product1 from '../images/img_1.jpg';
 import product2 from '../images/img_4.jpeg';
 import product3 from '../images/img_3.jpeg';
 
+import Header from '../components/header';
+import Footer from '../components/footer';
+
 function Wishlist() {
   const wishlistItems = [
     {
@@ -28,31 +31,37 @@ function Wishlist() {
   ];
 
   return (
-    <div className="container mt-5">
-      <h1 className="mb-4">Lista de Deseos</h1>
-      <div className="row">
-        {wishlistItems.map(item => (
-          <div className="col-12 col-md-4 mb-4" key={item.id}>
-            <div className="card">
-              <img src={item.image} className="card-img-top" alt={item.name} />
-              <div className="card-body">
-                <h5 className="card-title">{item.name}</h5>
-                <p className="card-text">{item.price}</p>
-                <Link to={`/producto/${item.id}`} className="btn btn-primary">
-                  Ver Detalles
-                </Link>
-                <button className="btn btn-danger ms-2">Eliminar</button>
+    <>
+      <Header />
+      
+      <div className="container mt-5">
+        <h1 className="mb-4">Lista de Deseos</h1>
+        <div className="row">
+          {wishlistItems.map(item => (
+            <div className="col-12 col-md-4 mb-4" key={item.id}>
+              <div className="card">
+                <img src={item.image} className="card-img-top" alt={item.name} />
+                <div className="card-body">
+                  <h5 className="card-title">{item.name}</h5>
+                  <p className="card-text">{item.price}</p>
+                  <Link to={`/producto/${item.id}`} className="btn btn-primary">
+                    Ver Detalles
+                  </Link>
+                  <button className="btn btn-danger ms-2">Eliminar</button>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+        <div className="text-center mt-4">
+          <Link to="/" className="btn btn-secondary">
+            Regresar a la página principal
+          </Link>
+        </div>
       </div>
-      <div className="text-center mt-4">
-        <Link to="/" className="btn btn-secondary">
-          Regresar a la página principal
-        </Link>
-      </div>
-    </div>
+      <p></p>
+      <Footer />
+    </>
   );
 }
 
